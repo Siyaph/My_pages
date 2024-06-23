@@ -1,0 +1,24 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.app-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/public/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: brightness(0.5); /* Adjust this value to make it darker or lighter */
+  z-index: -1;
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

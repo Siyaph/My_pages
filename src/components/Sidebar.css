@@ -1,0 +1,43 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color:#00799A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgb(248, 223, 3);
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo {
+    width: 80%;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    background: #cfbd16;
+  }
+  
